@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="index.html#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="index.html#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PROJECTS</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="index.html" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="index.html#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="index.html#projects" class="w3-bar-item w3-button" style="width:25% !important">PROJECTS</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <header class="w3-container w3-padding-32 w3-center w3-black">
+    <h1 class="w3-jumbo">Weather App</h1>
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <p>This Weather App allows users to check current weather conditions in any city around the world. By simply entering the name of a city,
+      users receive detailed weather information including temperature, humidity, pressure, wind speed, cloudiness, and more. The app pulls
+      real-time data from the OpenWeatherMap API to provide up-to-date information, along with a weather icon representing the current
+      conditions.</p>
+    <p><b>Features:</b></p>
+    <ul>
+      <li><b>City Input</b>: Users can search for weather data by entering the name of a city.</li>
+      <li><b>Real-time Data</b>: The app fetches live weather data from the OpenWeatherMap API.</li>
+      <li><b>Weather Details</b>: Displays key weather metrics like current temperature, feels-like temperature, wind speed, humidity,
+        pressure, and cloudiness.</li>
+      <li><b>Responsive Design</b>: The app adjusts to different screen sizes, ensuring an optimal user experience on both desktop and mobile
+        devices.</li>
+      <li><b>Weather Icon</b>: A dynamic weather icon is displayed based on the current weather conditions.</li>
+      <li><b>Error Handling</b>: If the city name is invalid or no data is returned, the app provides an error message to the user.</li>
+    </ul>
+    <p><b>Technologies Used:</b></p>
+    <ul>
+      <li>HTML</li>
+      <li>CSS (Responsive Design)</li>
+      <li>JavaScript (Async/Await, Fetch API)</li>
+    </ul>
+    <p>This project demonstrates skills in API integration, asynchronous data handling, and building responsive, user-friendly interfaces.</p>
+    <br><a href="https://8180e.github.io/weather-app/">See the project</a>
+    <br><a href="https://github.com/8180e/weather-app">Source code of the project</a>
+
+  <!-- End About Section -->
+  </div>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
