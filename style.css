@@ -1,9 +1,15 @@
-body, h1, h2, h3, h4, h5, h6 {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif
 }
 
 .w3-row-padding {
-    margin-bottom: 12px
+  margin-bottom: 12px
 }
 
 /* Set the width of the sidebar to 120px */
@@ -20,6 +26,6 @@ body, h1, h2, h3, h4, h5, h6 {
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {
   #main {
-      margin-left: 0
+    margin-left: 0
   }
 }
