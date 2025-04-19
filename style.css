@@ -1,0 +1,112 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2,
+h3 {
+  color: #2c3e50;
+}
+
+/* Header */
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+header .cta {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+header .cta:hover {
+  background: #2980b9;
+}
+
+/* About Section */
+#about {
+  background: #ffffff;
+  padding: 50px 0;
+}
+
+#about p {
+  max-width: 800px;
+  margin: 20px 0;
+}
+
+/* Portfolio Section */
+#portfolio {
+  background: #ecf0f1;
+  padding: 50px 0;
+}
+
+.project {
+  margin-bottom: 30px;
+}
+
+.project a {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.project a:hover {
+  background: #2980b9;
+}
+
+/* Contact Section */
+#contact {
+  background: #ffffff;
+  padding: 50px 0;
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact li {
+  margin: 10px 0;
+}
+
+#contact a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #2c3e50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
